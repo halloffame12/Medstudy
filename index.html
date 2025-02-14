@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad | Medical Education Consultants</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-content"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
+        <div class="container">
+            <a class="navbar -brand fw-bold" href="#">MedStudy Abroad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why-study">Why Study Abroad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#countries">Countries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#universities">Universities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary ms-2" href="#apply-now">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-primary text-white py-5 mt-5">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="display-4 fw-bold mb-4">
+                        Begin Your Medical Journey Abroad
+                    </h1>
+                    <p class="lead mb-4">
+                        Get world-class medical education at affordable costs. Study
+                        MBBS in top-ranked universities worldwide.
+                    </p>
+                    <a href="#apply-now" class="btn btn-warning btn-lg">Apply Now</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://impakter.com/wp-content/uploads/2016/03/pexels-photo-5.jpg"
+                        alt="Medical Education" class="img-fluid rounded shadow" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5" id="why-study">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Study MBBS Abroad?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Cost-Effective Education</h3>
+                            <p class="card-text">Affordable tuition fees with high-quality education standards and
+                                modern facilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Global Recognition</h3>
+                            <p class="card-text">Degrees recognized by WHO, UNESCO, and major medical councils
+                                worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Clinical Exposure</h3>
+                            <p class="card-text">Hands-on clinical training in advanced medical facilities and
+                                hospitals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countries Section -->
+    <section class="py-5 bg-light" id="countries">
+        <div class="container">
+            <h2 class="text-center mb-5">Top Countries for MBBS</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://www.visitrussia.com/images/img/plan-slider/plan-slider-3.jpg"
+                            class="card-img-top" alt="Russia">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Russia</h3>
+                            <ul class="list-unstyled">
+                                <li>✓ Top-ranked universities</li>
+                                <li>✓ Advanced infrastructure</li>
+                                <li>✓ Affordable fees</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://egov.eletsonline.com/wp-content/uploads/2018/09/kazakhstan.jpg"
+                            class="card-img-top" alt="Kazakhstan">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Kazakhstan</h3>
+                            <ul class="list-unstyled">
+                                <li>✓ Modern facilities</li>
+                                <li>✓ English medium</li>
+                                <li>✓ Quality education</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/902288/pexels-photo-902288.jpeg" class="card-img-top"
+                            alt="Philippines">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Philippines</h3>
+                            <ul class="list-unstyled">
+                                <li>✓ US-based curriculum</li>
+                                <li>✓ Clinical rotations</li>
+                                <li>✓ English speaking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_48/1430318/364140.jpg"
+                            class="card-img-top" alt="Georgia">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Georgia</h3>
+                            <ul class="list-unstyled">
+                                <li>✓ European standards</li>
+                                <li>✓ Rich medical heritage</li>
+                                <li>✓ Safe environment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section class="py-5" id="universities">
+        <div class="container">
+            <h2 class="text-center mb-5">Top Medical Universities</h2>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>University</th>
+                            <th>Country</th>
+                            <th>World Rank</th>
+                            <th>Annual Fees</th>
+                            <th>Rating</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>First Moscow State Medical University</td>
+                            <td>Russia</td>
+                            <td>301</td>
+                            <td>$7,000</td>
+                            <td>★★★★½</td>
+                        </tr>
+                        <tr>
+                            <td>Astana Medical University</td>
+                            <td>Kazakhstan</td>
+                            <td>401</td>
+                            <td>$5,500</td>
+                            <td>★★★★</td>
+                        </tr>
+                        <tr>
+                            <td>University of Manila</td>
+                            <td>Philippines</td>
+                            <td>450</td>
+                            <td>$6,000</td>
+                            <td>★★★★</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light" id="testimonials">
+        <div class="container">
+            <h2 class="text-center mb-5">Student Testimonials</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVparuZ4feRMJDAKgjimGIgPRBCI5jgvPrQ&s"
+                                    class="rounded-circle me-3" alt="Student">
+                                <div>
+                                    <h5 class="card-title mb-0">Sarah Johnson</h5>
+                                    <small class="text-muted">Russia, 3rd Year</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"Studying MBBS in Russia has been an incredible journey. The clinical
+                                exposure and facilities are excellent."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://newstudent.missouri.edu/wp-content/uploads/ 2023/04/John-Smith.jpg"
+                                    class="rounded-circle me-3" alt="Student">
+                                <div>
+                                    <h5 class="card-title mb-0">John Smith</h5>
+                                    <small class="text-muted">Kazakhstan, 4th Year</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"The quality of education and practical training here is outstanding.
+                                Great international exposure."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLMnhAytMrSq86zQLUm6qtKg_uW2SlAIXzg&s"
+                                    class="rounded-circle me-3" alt="Student">
+                                <div>
+                                    <h5 class="card-title mb-0">Maria Garcia</h5>
+                                    <small class="text-muted">Philippines, 2nd Year</small>
+                                </div>
+                            </div>
+                            <p class="card-text">"The multicultural environment and modern facilities make learning
+                                medicine truly enjoyable."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="py-5" id="apply-now">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <h2 class="text-center mb-4">Apply Now</h2>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Email *</label>
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Phone *</label>
+                                        <input type="tel" class="form-control" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Preferred Country *</label>
+                                        <select class="form-select" required>
+                                            <option value="">Select Country</option>
+                                            <option value="russia">Russia</option>
+                                            <option value="kazakhstan">Kazakhstan</option>
+                                            <option value="philippines">Philippines</option>
+                                            <option value="georgia">Georgia</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control" rows="4"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@medstudyabroad.com<br>
+                        Phone: +1-234-567-8900</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Countries</a></li>
+                        <li><a href="#" class="text-white">Universities</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white">Facebook</a>
+                        <a href="#" class="text-white">Twitter</ <a href="#" class="text-white">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <small>&copy; 2024 MedStudy Abroad. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="myscripts.js"></script></body>
+
+</html>
